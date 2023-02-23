@@ -7,3 +7,4 @@ int main()
 {
     int getch();
     setlocale(LC_ALL, "Russian");
+    int x, y;
