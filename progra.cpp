@@ -5,3 +5,5 @@
 using namespace std;
 int main()
 {
+    int getch();
+    setlocale(LC_ALL, "Russian");
