@@ -16,4 +16,18 @@ int main()
     int i = y;
     int c = 0;
     int d = 0;
-    
+    if (abs(x - y) > 10)
+    {
+        if (x < y)
+        {
+            while (x < i)
+            {
+                d++;
+                printf("Операция%i", d);
+                int c = c + i;
+                i++;
+
+            }
+        }
+        printf("Результат=%i", c);
+    }
